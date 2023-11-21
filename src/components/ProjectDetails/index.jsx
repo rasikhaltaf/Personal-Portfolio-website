@@ -121,18 +121,6 @@ const Member = styled.div`
   gap: 12px;
 `;
 
-const MemberImage = styled.img`
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-bottom: 4px;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
-  @media only screen and (max-width: 600px) {
-    width: 32px;
-    height: 32px;
-  }
-`;
 
 const MemberName = styled.div`
   font-size: 16px;
